@@ -35,7 +35,7 @@ namespace MSFakesStudy.DataAccess
         public List<Good> GetGoodsByName(string name)
         {
             return this.Goods
-                .Where(g => g.Name == name)
+                .Where(g => g.Name.ToLower().Contains(name.ToLower()))
                 .AsNoTracking()
                 .ToList();
         }
