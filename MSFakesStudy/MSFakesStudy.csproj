@@ -272,6 +272,20 @@
       <DependentUpon>201903311635237_Shob-Db-Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MSFakesStudy.BusinessLogic\MSFakesStudy.BusinessLogic.csproj">
+      <Project>{b94d23fd-b13a-44ec-88a0-681f045d7df5}</Project>
+      <Name>MSFakesStudy.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSFakesStudy.Models\MSFakesStudy.Models.csproj">
+      <Project>{1db19f61-0fe2-4da8-a197-66d9af21a83a}</Project>
+      <Name>MSFakesStudy.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MSFalesStudy.DataAccess\MSFalesStudy.DataAccess.csproj">
+      <Project>{aebcdc9f-7b61-46f0-94d8-5d75056cdf42}</Project>
+      <Name>MSFalesStudy.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

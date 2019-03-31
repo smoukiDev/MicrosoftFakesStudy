@@ -1,4 +1,4 @@
-﻿using MSFakesStudy.Business;
+﻿using MSFakesStudy.BusinessLogic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
